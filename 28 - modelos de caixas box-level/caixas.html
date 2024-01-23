@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgb(46, 65, 65);
+            padding: 3px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightblue;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: antiquewhite;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link 01</a>
+            <a href="#">Link 02</a>
+            <a href="#">Link 03</a>
+            <a href="#">Link 04</a>
+            <a href="#">Link 05</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>teste teste teste</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quam facere eaque impedit placeat ratione dolorum dolores enim obcaecati! Animi blanditiis corrupti quidem dolores mollitia molestiae modi deserunt consequatur magnam?</p>
+                <aside>
+                    <p>Artigo escrito por José</p>
+                </aside>
+            </article>
+
+            <article>
+                
+            </article>
+        </section>
+    </main>
+    <footer>
+        Desenvolvido pelo CursoemVideo
+    </footer>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: lighter;  
+    /* lighter, normal, bold, bolder */
+    /* 100 à 900 */
+    /* weight = peso , width = largura, height = altura */
+}
+h1, h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* 
+    Medidas Absolutas: 
+        cm, mm, in, px, pt e pc
+*/
+
+
+/* 
+    Medidas Relativas: 
+        em, ex, rem, vw, vh e %
+        16px tamanho padrão, é igual à 1em
+*/
+
+/*  
+    As mais corretas de se utilizar são: 
+        px e em
+    E a mais recomendada entre as duas, é em. 
+*/
