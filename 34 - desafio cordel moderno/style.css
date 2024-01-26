@@ -46,7 +46,11 @@ section {
     line-height: 2em;
     font-size: 30px;
     font-style: italic;
+    font-weight: 600;
 
+}
+section > p {
+    padding-bottom: 2em;
 }
 section.normal {
     background-color: white;
@@ -61,6 +65,14 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.178);
     width: 400px;
 } 
+
+section#img01 {
+    background-image: url();
+}
+
+section#img02 {
+    background-image: url();
+}
 
 footer {
     background-color: black;
