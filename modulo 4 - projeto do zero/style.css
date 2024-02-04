@@ -7,7 +7,7 @@
 html, body {
     height: 100vh; /* altura total da tela */
     width: 100vw; /*  largura total da tela */
-    background: url(images/fundo-madeira.jpg) no-repeat top center;
+    background: black url(images/bg.jpg) no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -30,4 +30,20 @@ iframe#tela {
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#social {
+    text-align: right;
+    padding-top: 250px;
+}
+section#social img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #dbdbdb48;
+    box-sizing: border-box; /* usar sempre isso */
+}
+section#social img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.288);
+    transform: translate(-3px, -3px);
+    transition: transform 1s;
 }
