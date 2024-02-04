@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+        }
+    </style>
+</head>
+<body>
+    <h1>GET e POST</h1>
+    <p>Estudo sobre, <b>formularios</b>, metodos <b>get</b> e <b>post</b>, sempre usar o <b>label</b>, <b>autocomplete</b> desligado. </p>
+
+    <p>Usar o <b>POST</b> para dados sensiveis, <i>cpf</i>, <i>numero de cartão</i>, <i>imagem</i> e se os dados tiverem mais de <i>3.000 kb</i></p>
+    <p>Usar o <b>GET</b> para dados comuns, <i>nome</i>, <i>sobrenome</i>, etc..</p>
+
+    <form autocomplete="off" action="cadastro.php" method="POST"> 
+        <!-- autocomplete="off" - desabilita o auto complete, sugestoes -->
+        <!-- method="POST" NÃO exibi os dados enviados -->
+        <!-- para cryptografar os dados de envio, é bom estudar HTTPS -->
+        <p>
+            <label for="inome">Nome: </label>
+            <input type="text" name="nome" id="inome">
+        </p>
+            <!-- NAME é usado mais para PHP, ID é mais para JavaScript -->
+        <p>
+            <label for="isobrenome">Sobrenome: </label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
