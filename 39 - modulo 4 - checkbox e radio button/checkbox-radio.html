@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e Radio button</title>
+</head>
+<body>
+    <h1>Estudo sobre Checkbox e Radio button</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>
+                Esportes Favoritos
+            </legend>
+            <!-- checkbox -->
+            <!-- Usamos o LABEL para que quando CLICAR na palavra, a caixa (checkbox) é marcada -->
+
+            <input type="checkbox" name="esporte" id="ifut" checked >
+             <label for="ifut">Futebol</label> <br>
+
+            <input type="checkbox" name="esporte" id="ivolei"> <label for="ivolei">Volei</label> <br>
+
+            <input type="checkbox" name="esporte" id="ibasket" checked> <label for="ibasket">Basquete</label> <br>
+
+            <input type="checkbox" name="esporte" id="itenis"> <label for="itenis">Tenis</label>
+        </fieldset>
+
+        <fieldset>
+        <!-- em NAME, podemos usar o mesmo name para marcar e desmacar a bolinha -->
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="imas" value="Masculino" checked> 
+            <label for="imas">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="ifemi" value="Feminino"> 
+            <label for="ifemi">Feminino</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
