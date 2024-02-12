@@ -25,7 +25,7 @@ span#burguer {
 
 }
 span#burguer:hover {
-    background-color: white;
+    background-color: lightgray;
     color: black;
 }
 menu {
@@ -38,7 +38,7 @@ menu > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    background-color: gray;
+    background-color: rgb(48, 48, 48);
     color: white;
     text-align: center;
     border-top: 2px solid lightgray;
